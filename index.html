@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+<div class="container">
+    <div class="containerWithOrderAndImg">
+        <div class="oder">
+            <h3>Область просмотра заказа</h3>
+            <ul id="orderViewingArea"></ul>
+            <div class="priceAndBtn">
+                <div id="finalPrice"></div>
+                <button id="btnToOrder" disabled>Заказать</button>
+            </div>
+        </div>
+        <div class="img"><img id="img" src="image/0.png" alt=""></div>
+    </div>
+    <div class="containerWithIngredients">
+        <div>
+            <h3>Основа</h3>
+            <ul id="baseSelection">
+                <li value="margarita">маргарита</li>
+                <li value="student">студенческая</li>
+                <li value="mushroom">грибная</li>
+                <li value="extra">экстра</li>
+            </ul>
+        </div>
+        <div>
+            <h3>Ингридиент1</h3>
+            <ul id="selectionOfIngredientsOne">
+                <li value="shrimps">креветки</li>
+                <li value="champignon">шампиньоны</li>
+                <li value="bacon">бекон</li>
+                <li value="cheese">сыр</li>
+            </ul>
+        </div>
+        <div>
+            <h3>Ингридиент2</h3>
+            <ul id="selectionOfIngredientsTwo">
+                <li value="onion">лук</li>
+                <li value="basil">базилик</li>
+                <li value="salad">салат</li>
+                <li value="tomato">томаты</li>
+            </ul>
+        </div>
+        <div>
+            <h3>Соус</h3>
+            <ul id="sauceSelection">
+                <li value="cheesy">сырный</li>
+                <li value="garlic">чесночный</li>
+                <li value="sour">сметанный</li>
+                <li value="spicy">острый</li>
+            </ul>
+        </div>
+    </div>
+</div>
+<script src="index.js"></script>
+</body>
+</html>
